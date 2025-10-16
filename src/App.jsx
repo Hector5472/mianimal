@@ -7,6 +7,8 @@ import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import Appgrid from './Appgrid';
 
+import FormRegistro from './components/FormRegistro'
+
 function App() {
   const [petCount, setCount] = useState(0)
 
@@ -33,6 +35,8 @@ function App() {
           me has hecho {petCount} rascaditas
         </Button>
         <Appgrid></Appgrid>
+        
+        <FormRegistro/>
       </Stack>
     </>
 
